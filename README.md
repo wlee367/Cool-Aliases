@@ -70,14 +70,19 @@ alias gundo='git reset --soft HEAD^'
 --------------------------------------------------------------------------------------
 ```
 Those damn hidden files and apple settings (MAC only)
+
 alias hide='defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder'
 alias hidedesktop='defaults write com.apple.finder CreateDesktop -bool false && killall Finder'
 ```
 --------------------------------------------------------------------------------------
 ```
-How can we forget?
+How can we forget? Editors are our lives.
 
 alias v='vim'
+
+This one isn't an alias, but sublime is so bae
+`ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
+
 ```
 --------------------------------------------------------------------------------------
 
