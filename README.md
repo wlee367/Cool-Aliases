@@ -81,7 +81,7 @@ How can we forget? Editors are our lives.
 alias v='vim'
 
 This one isn't an alias, but sublime is so bae
-`ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
 ```
 --------------------------------------------------------------------------------------
